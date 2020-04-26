@@ -1,0 +1,7 @@
+*.jar
+nbproject/private
+build
+dist
+target
+nbactions.xml
+nb-configuration.xml
