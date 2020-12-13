@@ -45,7 +45,7 @@ public class BasicLumixControl {
                     if (counter % 5 == 0) {
                         getUrlContents("http://" + cameraIP + "/cam.cgi?mode=camctrl&type=touch&value=500/500&value2=on");
                     }
-                    Thread.sleep(1500);
+                    Thread.sleep(1000);
                 }
             } catch (InterruptedException e) {
                 // Normal - shutting down.
